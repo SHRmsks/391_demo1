@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "custom";
+  src: url("Custom.otf") format("opentype");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'custom';
+}
+#root {
+  width: 100vw;
+
+}
+#header1{
+  color: #BF4B34;
+  font-size: 40px;
+}
+#count {
+  font-size : 20px;
+  color: #26aa8d
+}
+#inc_button{
+  font-size: 15px;
+  height:auto; 
+  background-color: #bf6f23;
+  padding:4px 5px;
+  border-width: 0;
+  box-shadow:2px 3px 12px rgba(0,0,0,0.4) ;
+  color:  #26aa8d;
+  border-radius:8px; 
+
+  
+}
+#inc_div{
+  width: 100%;
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+#inc_div2{
+  width:100%;
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+#App{
+  display: flex;
+  width: 100%;
+  gap: 15px;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#useState{
+  display: flex;
+  width: auto;
+  padding: 10px, 20px;
+  background-color: #f4e7ae;
+  border-radius: 20px;
+  padding: 10px;
+  flex-direction: column;
+  align-items:center;
+  gap: 10px;
+}
+
+#usestate_p{
+  font-size: 30px;
+  color: #BF4B34;
+}
+
+#nest_usestate{
+  display: flex;
+  position: relative;
+  width: 40%;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  padding: 10px;
+  flex-direction: column;
+  align-items:center;
+  gap: 10px;
+}
+#randomImg {
+  display: flex;
+  width:100%;
+  gap:15px;
+  flex-wrap: wrap;
+}
+#parentComponent{
+  width: 90%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  align-items: center;
+  justify-content: center;
+}
+#img{
+  width: 200px;
+}
+#p_cmp_t{
+  font-size: 20px;
+  color: #0c6d78;
+}
