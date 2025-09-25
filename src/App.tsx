@@ -45,7 +45,7 @@ const ParentComponent = React.memo(({ arr }: ImgArr) => {
 
 function App() {
   console.log("App is getting re-rendered");
-  const random6artsProp: Array<string> = [];
+
   const [color, setColor] = useState("#f4e7ae"); // now we change the parent color
   const [imgs, setImgs] = useState<Array<string>>([]);
   const myRef = useRef<HTMLDivElement>(null);
